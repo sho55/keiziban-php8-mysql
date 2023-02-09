@@ -79,22 +79,18 @@ include $head_path;
 
     function editMode() {
         const el = document.getElementsByClassName('edit_input');
-        // console.log(el);
         for (let i = 0; i < el.length; i++) {
             const element = el[i];
             isCheck = element.classList.contains('d-none');
-            // console.log(isCheck);
             isCheck ? element.classList.remove('d-none') : element.classList.add('d-none');
         }
     }
 
     function updateUser() {
         const el = document.getElementsByClassName('edit_input');
-        // console.log(el);
         for (let i = 0; i < el.length; i++) {
             const element = el[i];
             isCheck = element.classList.contains('d-none');
-            // console.log(isCheck);
             isCheck ? element.classList.remove('d-none') : element.classList.add('d-none');
         }
     }

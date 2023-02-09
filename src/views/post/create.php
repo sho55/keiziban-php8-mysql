@@ -45,15 +45,6 @@ include $head_path;
                             <textarea name="body" class="form-control" id="bodyLabel" cols="30" rows="10"></textarea>
                         </div>
                     </div>
-                    <!-- <div class="form-group row">
-                        <div class="mt-2">
-                            <label for="imageLabel" class="col-sm-2 col-form-label col-form-label-sm fw-bold">画像</label>
-                        </div>
-                        <div class="col-sm-12">
-
-                            <input type="file" name="image" class="form-control" id="imageLabel" src="" alt="">
-                        </div>
-                    </div> -->
                     <div class="form-group row">
                         <div class="col-sm-12">
                             <div class="mt-4 text-center">
@@ -75,14 +66,3 @@ include $head_path;
 </script>
 
 </html>
-
-<?php
-// require_once($path . 'controller/post_create_controller.php');
-// if (isset($_POST['title']) && isset($_POST['body'])) {
-//     $bool = createPost($_POST);
-//     if ($bool) {
-//         header("Location:./index.php");
-//         exit;
-//     }
-// }
-?>

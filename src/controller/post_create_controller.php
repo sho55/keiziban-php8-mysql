@@ -3,7 +3,6 @@ session_start();
 $path = '../';
 require_once($path . 'common/database.php');
 require_once($path . 'common/session.php');
-// require_once($path . 'common/log.php');
 
 //Auth Page
 if (!isset($_SESSION['name'])) {

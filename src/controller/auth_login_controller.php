@@ -14,7 +14,7 @@ if (isset($_SESSION['name'])) {
 
 // Login
 if (isset($_POST['email']) && isset($_POST['password']) && isset($_POST['is_login'])) {
-    logToFile($_POST, __FILE__);
+    logToFile($_POST,__FILE__, __LINE__);
 
     $res = userGetInfo($_POST);
     if(empty($res)){

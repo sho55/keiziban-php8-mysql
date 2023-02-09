@@ -11,8 +11,6 @@ $path = '../../';
 $header_path = $path . 'layout/header.php';
 $footer_path = $path . 'layout/footer.php';
 $head_path = $path . 'common/head.php';
-// require_once($path . 'common/session.php');
-
 
 ?>
 </head>

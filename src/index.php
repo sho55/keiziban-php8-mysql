@@ -8,7 +8,6 @@ $path = './';
 $header_path = $path . 'layout/header.php';
 $footer_path = $path . 'layout/footer.php';
 $head_path = $path . 'common/head.php';
-// $cookie_path = $path . 'common/session.php';
 
 require_once($path . 'common/database.php');
 $items = postList();

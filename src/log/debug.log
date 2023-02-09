@@ -2965,3 +2965,34 @@ Array
 2023-01-28 18:39:35-/var/www/src/controller/post_delete_controller.php:18
 2023-01-28 18:39:51-/var/www/src/controller/post_delete_controller.php:18
 2023-01-28 18:49:02-/var/www/src/controller/post_delete_controller.php:18
+2023-02-09 09:29:11-/var/www/src/controller/auth_login_controller.php:17
+Array
+(
+    [_token] => {{csrf_token()}}
+    [is_login] => 1
+    [email] => test1@test.com
+    [password] => test1234
+)
+2023-02-09 09:29:12-/var/www/src/common/session.php:18
+Array
+(
+    [id] => 1
+    [email] => test1@test.com
+    [name] => 太郎1様です
+    [is_login] => 1
+)
+2023-02-09 09:29:12-/var/www/src/controller/auth_login_controller.php:26
+Array
+(
+    [id] => 1
+    [name] => 太郎1様です
+    [email] => test1@test.com
+    [password] => $2y$10$ae/g6aiLDG4snd9laZzZZOmWOocmpJdvsZHpLkOO03kHsPm/5V9Xy
+    [user_type] => 0
+    [created_at] => 2023-01-20 15:31:22
+    [updated_at] => 2023-01-28 18:24:33
+)
+2023-02-09 09:30:22-/var/www/src/common/session.php:29
+Array
+(
+)
