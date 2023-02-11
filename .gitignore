@@ -1,6 +1,7 @@
 # DIRCTORY
 /.history/
-# /docker-config/mysql/data/
+/docker-config/mysql/data/
+/src/log/
 
 # FILE
 /.circleci
